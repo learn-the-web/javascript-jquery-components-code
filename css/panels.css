@@ -1,0 +1,7 @@
+.panel {
+  display: none;
+}
+
+.js-panel-open {
+  display: block;
+}

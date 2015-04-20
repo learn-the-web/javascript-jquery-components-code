@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Lightbox</title>
+  <link href="css/lightbox.css" rel="stylesheet">
+</head>
+<body>
+
+  <ul class="thumbnails">
+    <li>
+      <a href="images/stars.jpg" data-title="Stars" data-desc="Lots of pretty stars.">
+        <img src="images/stars-thumb.jpg" alt="">
+      </a>
+    </li>
+    <li>
+      <a href="images/nebula.jpg" data-title="Nebula" data-desc="A colourful nebula.">
+        <img src="images/nebula-thumb.jpg" alt="">
+      </a>
+    </li>
+    <li>
+      <a href="images/galaxies.jpg" data-title="Galaxies" data-desc="All the galaxies.">
+        <img src="images/galaxies-thumb.jpg" alt="">
+      </a>
+    </li>
+  </ul>
+
+  <div class="lightbox" data-state="hidden">
+    <div class="lightbox-container">
+      <button class="btn-close">Close</button>
+      <div class="lightbox-content">
+        <h2 class="lightbox-heading"></h2>
+        <img class="lightbox-img" alt="">
+        <p class="lightbox-desc"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+  <script src="js/lightbox.js"></script>
+</body>
+</html>

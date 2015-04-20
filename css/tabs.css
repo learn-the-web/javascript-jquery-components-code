@@ -1,0 +1,12 @@
+/* Just because `hidden` isn't supported in all browsers */
+[hidden] {
+  display: none;
+}
+
+.tabs li {
+  display: inline-block;
+}
+
+.js-current {
+  background-color: red;
+}
