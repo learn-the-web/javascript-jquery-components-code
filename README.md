@@ -1,4 +1,4 @@
-# Media queries code samples
+# Javascript components code samples
 
 Code samples for the Javascript components tutorial.
 
