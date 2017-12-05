@@ -1,8 +1,8 @@
-# Javascript components code samples
+# Javascript + jQuery components code samples
 
-Code samples for the Javascript components tutorial.
+Code samples for the Javascript + jQuery components tutorial.
 
-### [☛ Tutorials & videos](http://learn-the-web.algonquindesign.ca/topics/javascript-components/)
+### [☛ Tutorials & videos](http://learn-the-web.algonquindesign.ca/topics/javascript-jquery-components/)
 
 ---
 
